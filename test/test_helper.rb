@@ -7,7 +7,7 @@ class ActiveSupport::TestCase
   parallelize(workers: :number_of_processors, with: :threads)
 
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-  fixtures :all
-
+  # fixtures :all     #esse comando cria todas os model de teste no banco de dados no inicio do teste
+  
   # Add more helper methods to be used by all tests here...
 end
